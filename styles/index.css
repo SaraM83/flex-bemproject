@@ -1,0 +1,160 @@
+.menu_container {
+    background-color: #ffffff;
+    color: #444444;
+    display: flex;
+}
+
+.menu {
+    width: 1440px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu--red {
+    padding-right: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu--blue {
+    padding-right: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu--yellow {
+    padding-right: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu--green {
+    padding-right: 139px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu__logo {
+    align-items: center;
+    padding: 14px 0px 14px 144px; 
+}
+
+.rektangel1_container {
+    background-color: #929292;
+    color: #ffffff;
+    width: 1440px;
+    height: 643px;
+}
+
+.content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_box {
+    display: flex;
+    width: 466px;
+    /*height: 244px;*/
+    flex-direction: column;
+    text-align: center;
+    padding-top: 91px;
+}
+
+.headline {
+    font-size: 44px;
+    font-family: Roboto;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text {
+    margin-top: 0px;
+    padding-top: 37px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+
+.button_container {
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    width: 186px;
+    height: 39px;
+    left: 627px;
+    top: 384px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+}
+
+.pics_container {
+    padding-top: 79px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+}
+
+.pic1_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Roboto;
+    width: 224px;
+    height: 278px;
+    text-align: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.pic2_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Roboto;
+    width: 224px;
+    height: 278px;
+    text-align: center;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.pic3_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Roboto;
+    width: 224px;
+    height: 278px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.rektangel_3 {
+    height: 257px;
+}
